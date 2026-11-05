@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bosch MD1 / MDG1 Euro 6d ECU Tuning Software — Softechpro Solutions v2.0.4 (Windows &amp; macOS)</title>
+  <meta name="description" content="Modern Bosch MD1 / MDG1 (MD1CS001, MD1CS003, MD1CS004, MD1CS005, MD1CS006, MD1CP001, MD1CP004) AdBlue/SCR, DPF, EGR, Start-Stop, DTC Off &amp; Stage 1 calibration.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://softechpro-solutions.github.io/bosch-md1-mdg1-tuning-software/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bosch MD1 / MDG1 Euro 6d ECU Tuning Software — Softechpro Solutions v2.0.4 (Windows &amp; macOS)">
+  <meta property="og:description" content="Modern Bosch MD1 / MDG1 (MD1CS001, MD1CS003, MD1CS004, MD1CS005, MD1CS006, MD1CP001, MD1CP004) AdBlue/SCR, DPF, EGR, Start-Stop, DTC Off &amp; Stage 1 calibration.">
+  <meta property="og:url" content="https://softechpro-solutions.github.io/bosch-md1-mdg1-tuning-software/">
+  <meta property="og:site_name" content="Softechpro Solutions Official Engineering Hub">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bosch MD1 / MDG1 Euro 6d ECU Tuning Software — Softechpro Solutions v2.0.4 (Windows &amp; macOS)">
+  <meta name="twitter:description" content="Modern Bosch MD1 / MDG1 (MD1CS001, MD1CS003, MD1CS004, MD1CS005, MD1CS006, MD1CP001, MD1CP004) AdBlue/SCR, DPF, EGR, Start-Stop, DTC Off &amp; Stage 1 calibration.">
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","name":"Softechpro Solutions","legalName":"SOFTTECHPRO SOLUTIONS LLC","url":"https://www.softechpro-solutions.com/","logo":"https://www.softechpro-solutions.com/favicon.ico","email":"support@softechpro-solutions.com","sameAs":["https://www.softechpro-solutions.com/","https://www.softechpro-solutions.com/trucks/","https://github.com/softechpro-solutions","https://softechpro-solutions.github.io/","https://www.youtube.com/@Softechpro-Solutions-com"]},{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Softechpro Solutions v2.0.4","operatingSystem":"Windows 10, Windows 11, macOS","applicationCategory":"BusinessApplication","softwareVersion":"2.0.4","url":"https://www.softechpro-solutions.com/","downloadUrl":"https://www.softechpro-solutions.com/","offers":{"@type":"AggregateOffer","lowPrice":"1.99","highPrice":"679.00","priceCurrency":"EUR","offerCount":"6","url":"https://www.softechpro-solutions.com/#pricing"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Softechpro Hub","item":"https://softechpro-solutions.github.io/"},{"@type":"ListItem","position":2,"name":"Cars & Calibration","item":"https://softechpro-solutions.github.io/cars-supported-ecus.html"},{"@type":"ListItem","position":3,"name":"Bosch MD1 / MDG1 Euro 6d ECU Tuning Software","item":"https://softechpro-solutions.github.io/bosch-md1-mdg1-tuning-software/"}]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does Softechpro calculate checksums automatically on Bosch MD1 / MDG1 Euro 6d ECU Tuning Software?","acceptedAnswer":{"@type":"Answer","text":"Yes. Softechpro Solutions v2.0.4 verifies and corrects block checksums automatically on supported virgin original Bosch MD1 / MDG1 Euro 6d ECU Tuning Software readouts."}},{"@type":"Question","name":"Can I test my exact Bosch MD1 / MDG1 Euro 6d ECU Tuning Software binary before subscribing?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use the free ECU coverage preview at https://www.softechpro-solutions.com/ or run the 25-Hour Real Software Test for €1.99 (+3 free tuning credits)."}}]}]</script>
+  <style>
+    :root{--bg:#070b14;--card:#0f172a;--line:#1e293b;--txt:#f1f5f9;--muted:#94a3b8;--cyan:#00e5ff;--green:#00e676;--amber:#ff9100}
+    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.62}
+    a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}
+    .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+    header{background:#0b1120;border-bottom:1px solid var(--line);padding:14px 0;position:sticky;top:0;z-index:10}
+    nav{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;font-size:1.08rem;color:#fff;letter-spacing:.4px}
+    .navlinks{display:flex;flex-wrap:wrap;gap:14px;font-size:.9rem}
+    .hero{padding:40px 0 26px;border-bottom:1px solid var(--line)}
+    .badge{display:inline-block;background:rgba(0,229,255,.12);color:var(--cyan);border:1px solid rgba(0,229,255,.35);padding:4px 12px;border-radius:999px;font-size:.78rem;font-weight:700}
+    h1{font-size:1.95rem;line-height:1.22;margin:14px 0}h2{font-size:1.38rem;margin:30px 0 14px;color:#fff}
+    .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+    .btn{display:inline-block;padding:11px 18px;border-radius:8px;font-weight:700;font-size:.92rem}
+    .btn-primary{background:var(--cyan);color:#041019}.btn-green{background:var(--green);color:#041019}.btn-outline{border:1px solid var(--line);background:var(--card);color:#fff}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:16px 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+    .card h3{margin:0 0 8px;font-size:1.04rem;color:#fff}
+    .notice{background:rgba(255,145,0,.09);border:1px solid rgba(255,145,0,.35);border-radius:10px;padding:14px 18px;margin:18px 0;font-size:.92rem}
+    table{width:100%;border-collapse:collapse;margin:18px 0;background:var(--card);border-radius:10px;overflow:hidden;font-size:.88rem}
+    th,td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+    th{background:#111c33;color:var(--cyan);font-weight:700}
+    footer{margin-top:46px;padding:26px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.86rem}
+    .crumbs{font-size:.83rem;color:var(--muted);margin-top:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="https://softechpro-solutions.github.io/">SOFTECHPRO SOLUTIONS · OPEN HUB (v2.0.4)</a>
+        <div class="navlinks">
+          <a href="https://softechpro-solutions.github.io/">Hub</a>
+          <a href="https://softechpro-solutions.github.io/cars-supported-ecus.html">Cars ECUs</a>
+          <a href="https://softechpro-solutions.github.io/trucks-supported-ecus.html">24V Trucks</a>
+          <a href="https://softechpro-solutions.github.io/developer-api.html">REST API</a>
+          <a href="https://softechpro-solutions.github.io/comparisons.html">Comparisons</a>
+          <a href="https://www.softechpro-solutions.com/" style="color:var(--green);font-weight:700;">Official Website →</a>
+        </div>
+      </nav>
+      <div style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)"><a href="https://softechpro-solutions.github.io/" style="font-size:.8rem;opacity:1;font-weight:700;color:#00e676">English</a> · <a href="https://softechpro-solutions.github.io/es/" style="font-size:.8rem;opacity:.8">Español</a> · <a href="https://softechpro-solutions.github.io/fr/" style="font-size:.8rem;opacity:.8">Français</a> · <a href="https://softechpro-solutions.github.io/de/" style="font-size:.8rem;opacity:.8">Deutsch</a> · <a href="https://softechpro-solutions.github.io/it/" style="font-size:.8rem;opacity:.8">Italiano</a> · <a href="https://softechpro-solutions.github.io/pt/" style="font-size:.8rem;opacity:.8">Português</a> · <a href="https://softechpro-solutions.github.io/pl/" style="font-size:.8rem;opacity:.8">Polski</a> · <a href="https://softechpro-solutions.github.io/tr/" style="font-size:.8rem;opacity:.8">Türkçe</a></div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="crumbs"><a href="https://softechpro-solutions.github.io/">Softechpro Hub</a> › <a href="https://softechpro-solutions.github.io/cars-supported-ecus.html">Cars &amp; Calibration</a> › <a href="https://softechpro-solutions.github.io/bosch-md1-mdg1-tuning-software/">Bosch MD1 / MDG1 Euro 6d ECU Tuning Software</a></div>
+    <section class="hero">
+      <span class="badge">CARS, VANS &amp; POWERTRAIN SUITE · v2.0.4</span>
+      <h1>Bosch MD1 / MDG1 Euro 6d ECU Tuning Software</h1>
+      <p style="color:var(--muted);font-size:1.05rem;max-width:880px">Modern Bosch MD1 / MDG1 (MD1CS001, MD1CS003, MD1CS004, MD1CS005, MD1CS006, MD1CP001, MD1CP004) AdBlue/SCR, DPF, EGR, Start-Stop, DTC Off &amp; Stage 1 calibration.</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="https://www.softechpro-solutions.com/">Open Official Platform →</a>
+        <a class="btn btn-green" href="https://www.softechpro-solutions.com/buy/realtest">Start 25h Real Test (€1.99 + 3 Credits) →</a>
+        <a class="btn btn-outline" href="https://github.com/softechpro-solutions/bosch-md1-mdg1-tuning-software">View GitHub Repository →</a>
+      </div>
+    </section>
+    <div class="notice">
+      <strong>⚠️ Mandatory 100% Virgin Original ECU Readout Rule:</strong> Always back up the full stock ECU readout before writing and process strictly <strong>100% virgin, unmodified stock files</strong>.
+    </div>
+    <h2>📊 Live Supported Manufacturers &amp; ECU Families</h2>
+    <table><thead><tr><th>Manufacturer</th><th>ECU Count</th><th>Sample Supported Controllers</th></tr></thead><tbody></tbody></table>
+    
+    <h2>❓ Frequently Asked Engineering Questions</h2>
+    <div class="grid">
+      <div class="card"><h3>Does Softechpro calculate checksums automatically on Bosch MD1 / MDG1 Euro 6d ECU Tuning Software?</h3><p style="color:var(--muted);margin:0">Yes. Softechpro Solutions v2.0.4 verifies and corrects block checksums automatically on supported virgin original Bosch MD1 / MDG1 Euro 6d ECU Tuning Software readouts.</p></div>
+<div class="card"><h3>Can I test my exact Bosch MD1 / MDG1 Euro 6d ECU Tuning Software binary before subscribing?</h3><p style="color:var(--muted);margin:0">Yes. Use the free ECU coverage preview at https://www.softechpro-solutions.com/ or run the 25-Hour Real Software Test for €1.99 (+3 free tuning credits).</p></div>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p><strong>Softechpro Solutions (v2.0.4)</strong> — Official Open Technical Hub, ECU Coverage Directory &amp; B2B API Docs · SOFTTECHPRO SOLUTIONS LLC.</p>
+      <p>
+        <a href="https://www.softechpro-solutions.com/">Cars &amp; Vans Suite</a> ·
+        <a href="https://www.softechpro-solutions.com/buy/realtest">€1.99 Real Software Test (25h)</a> ·
+        <a href="https://www.softechpro-solutions.com/trucks/">24V Trucks &amp; Agriculture Suite</a> ·
+        <a href="https://www.softechpro-solutions.com/developers">Dealer &amp; Developer REST API</a> ·
+        <a href="https://github.com/softechpro-solutions" rel="me">GitHub (@softechpro-solutions)</a> ·
+        <a href="https://www.youtube.com/@Softechpro-Solutions-com" rel="me">YouTube</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
