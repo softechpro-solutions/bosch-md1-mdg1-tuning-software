@@ -1,9 +1,9 @@
 {
   "software": "Softechpro Solutions v2.0.4",
-  "family": "Bosch MD1 / MDG1",
-  "slug": "bosch-md1-mdg1-tuning-software",
+  "repository": "bosch-md1-mdg1-tuning-software",
+  "title": "Bosch MD1 / MDG1 Euro 6d ECU Tuning Software",
   "official_url": "https://www.softechpro-solutions.com/",
-  "matched_ecu_variants": 4962,
-  "matched_brands_count": 81,
-  "coverage_by_brand": {}
+  "github_pages_url": "https://softechpro-solutions.github.io/bosch-md1-mdg1-tuning-software/",
+  "supported_brands_count": 0,
+  "coverage_sample": {}
 }
